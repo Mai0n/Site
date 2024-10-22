@@ -1,0 +1,40 @@
+:root {
+    --color-blue-900: #232948;
+    --font-body: "Raleway", sans-serif;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: #525fa0;
+    color: white;
+}
+
+
+
+.navbar .nav-link:hover {
+    color: #245a2d !important;
+}
+
+
+.img-custom {
+    height: 250px;
+    object-fit: fill;
+}
+
+.img-fluid {
+    width: 80%;
+    object-fit:  cover   
+}
+
+.subtitle {
+    background-color: var(--color-blue-900);
+    color: #ffffff; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.section-background {
+    background-color: var(--color-blue-900);
+    padding: 20px 0; 
+}
+
